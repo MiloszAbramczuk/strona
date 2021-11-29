@@ -1,0 +1,172 @@
+body {
+    background-image: url("../img/login-background-25.png");
+    background-size: cover;
+}
+
+.navbar-items {
+    padding-right: 30px;
+}
+
+.navbar-items > li {
+    padding: 0px 15px;
+    font-size: 19px;
+    text-align: center;
+}
+
+.recipe-panel {
+    margin: 30px 0;
+    padding: 80px 30px;
+    background: white;
+    border: 0px solid black;
+    /* border-radius: 5%; */
+    background-color: #ffffffd3;
+    min-height: calc(100vh - 91px - 100px);
+}
+
+.recipe-panel .recipe-header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.recipe-panel .recipe-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.recipe-panel .recipe-title h3 {
+    font-family: 'McLaren', cursive;
+}
+
+.recipe-panel .recipe-title h5 {
+    padding: 10px 0 50px 0;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 18px;
+}
+
+.recipe-panel .recipe-image {
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(1);
+}
+
+.recipe-panel .recipe-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.recipe-panel .recipe-info div {
+    padding: 20px;
+}
+
+.recipe-panel .recipe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 25px;
+    margin-bottom: 90px;
+}
+
+.recipe-panel .recipe-formula, .recipe-components {
+    margin-top: 90px;
+    text-align: center;
+}
+
+.recipe-panel .recipe-extra-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.recipe-panel .recipe-buttons {
+    padding-top: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.recipe-panel .recipe-buttons input {
+    margin: 3px;
+}
+
+.comments-box {
+    margin: 30px 0;
+    padding: 80px 30px;
+    background: white;
+    border: 0px solid black;
+    background-color: #ffffffd3;
+    min-height: 150px;
+}
+
+.comments-box header h2 {
+    text-align: center;
+    font-family: 'McLaren', cursive;
+}
+
+.comments-box header h4 {
+    text-align: center;
+    font-family: 'McLaren', cursive;
+    font-size: 16px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.comments-box .form-comment form {
+    display: flex;
+    flex-direction: column;
+}
+
+.comments-box .form-comment input[type="text"] {
+    min-height: 90px;
+}
+
+.comments-box .comment {
+    margin: 30px 0;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.comments-box .comment .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.comments-box .comment .header .date {
+    padding-bottom: 30px;
+}
+
+.footer-panel {
+    background-image: url("../img/footer-background.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    padding: 30px;
+    font-size: 16px;
+    font-family: 'McLaren', cursive;
+}

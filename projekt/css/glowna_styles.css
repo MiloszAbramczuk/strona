@@ -1,0 +1,128 @@
+.navbar-items {
+    padding-right: 30px;
+}
+
+.navbar-items > li {
+    padding: 0px 15px;
+    font-size: 19px;
+    text-align: center;
+}
+
+.account-panel {
+    background-image: url("../img/login-background-75.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.account-panel .account-info {
+    background-color: rgba(255, 255, 255, 0.884);
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.account-panel .account-info h1 {
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+
+.account-panel .account-info button {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.account-panel .account-info .account-photo {
+    padding: 30px;
+}
+
+.recipes-cards {
+    background-color: white;
+    text-align: center;
+}
+
+.recipes-cards nav h3 {
+    font-family: 'McLaren', cursive;
+    padding-top: 100px;
+    font-size: 38px;
+}
+
+.recipes-cards nav h5 {
+    font-family: 'Ubuntu Mono', monospace;
+    padding-bottom: 70px;
+}
+
+.recipes-cards nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.recipes-cards article {
+    padding: 100px 0;
+}
+
+.recipes-cards article ul {
+    padding: 0;
+}
+
+.recipes-cards article h3 {
+    font-family: 'McLaren', cursive;
+    font-size: 38px;
+}
+
+.recipes-cards article h5 {
+    font-family: 'Ubuntu Mono', monospace;
+    padding-bottom: 20px;
+}
+
+.recipes-cards article select {
+    font-family: 'Ubuntu Mono', monospace;
+    padding: 5px;
+}
+
+.recipes-cards article .input-group select {
+    width: 100%;
+}
+
+.recipes-cards h5.card-title  {
+    font-family: 'Ubuntu Mono', monospace;
+    padding: 0;
+}
+
+.recipes-cards article ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding-top: 50px;
+}
+
+.recipe-card {
+    width: 340px;
+    margin-bottom: 100px;
+    margin: 10px;
+    font-size: 11px;
+    padding-top: 20px;
+}
+
+.footer-panel {
+    background-image: url("../img/footer-background.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    padding: 30px;
+    font-size: 16px;
+    font-family: 'McLaren', cursive;
+}

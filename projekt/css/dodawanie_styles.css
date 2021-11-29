@@ -1,0 +1,65 @@
+.navbar-items {
+    padding-right: 30px;
+}
+
+.navbar-items > li {
+    padding: 0px 15px;
+    font-size: 19px;
+    text-align: center;
+}
+
+.background {
+    background-image: url("../img/login-background-75.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 91px - 100px);
+    padding: 30px;
+}
+
+.background .panel {
+    padding: 20px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: #eeeeeed3;
+    min-width: 80vw;
+}
+
+.background .panel h1 {
+    font-size: 30px;
+    font-family: 'Ubuntu Mono', monospace;
+    padding: 30px;
+    text-align: center;
+}
+
+.background .panel #przepis, #skladniki {
+    height: 180px;
+}
+
+.background .panel label {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 18px;
+}
+
+.background .panel .form-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    text-align: center;
+}
+
+.footer-panel {
+    background-image: url("../img/footer-background.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    padding: 30px;
+    font-size: 16px;
+    font-family: 'McLaren', cursive;
+}

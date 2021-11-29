@@ -1,0 +1,109 @@
+.navbar-items {
+    padding-right: 30px;
+}
+
+.navbar-items > li {
+    padding: 0px 15px;
+    font-size: 19px;
+    text-align: center;
+}
+
+main {
+    background-image: url("../img/login-background-25.png");
+    background-size: cover;
+    min-height: calc(100vh - 91px - 100px);
+}
+
+main  {
+   padding: 30px 0;
+}
+
+.users-panel {
+    background-color: rgba(255, 255, 255, 0.884);
+    padding: 30px;
+    min-width: 200px;
+    min-height: 400px;
+}
+
+.users-panel .wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.users-panel .wrap .card .card-body .card-buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.users-panel .wrap .card .card-body .card-buttons form {
+    padding: 0 3px;
+}
+
+.recipes-panel {
+    background-color: rgba(255, 255, 255, 0.884);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.recipes-panel h1 {
+    padding-top: 45px;
+}
+
+.recipes-panel p {
+    padding-bottom: 30px;
+}
+
+.recipes-panel .recipes .wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.recipes-panel .recipes .wrap .card {
+    padding: 10px;
+    margin: 5px;
+    min-height: 450px;
+}
+
+.recipes-panel .recipes .wrap .card .card-body h5 {
+    min-height: 48px;
+    font-family: 'McLaren', cursive;
+}
+
+.recipes-panel .recipes .wrap .card .card-body .card-buttons {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.recipes-panel .recipes .wrap .card .card-body .card-buttons form {
+    padding-top: 5px;
+}
+
+
+.footer-panel {
+    background-image: url("../img/footer-background.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    padding: 30px;
+    font-size: 16px;
+    font-family: 'McLaren', cursive;
+}
